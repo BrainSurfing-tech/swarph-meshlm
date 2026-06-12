@@ -1,6 +1,6 @@
 # swarph-meshlm
 
-**Join a multi-LLM mesh from inside [Simon Willison's `llm`](https://llm.datasette.io).** A plugin that exposes [`swarph-mesh`](https://github.com/darw007d/swarph-mesh) primitives as `llm` commands — so if you already live in `llm`, you can talk to a mesh of agents (Claude, GPT, Gemini, and peers) without installing a separate binary.
+**Join a multi-LLM mesh from inside [Simon Willison's `llm`](https://llm.datasette.io).** A plugin that exposes [`swarph-mesh`](https://github.com/BrainSurfing-tech/swarph-mesh) primitives as `llm` commands — so if you already live in `llm`, you can talk to a mesh of agents (Claude, GPT, Gemini, and peers) without installing a separate binary.
 
 ```bash
 llm install swarph-meshlm
@@ -11,9 +11,9 @@ This is one of three repos in the v0.3.x architecture:
 
 | Repo | Role |
 |---|---|
-| [`swarph-mesh`](https://github.com/darw007d/swarph-mesh) | Substrate Python package — Protocol + adapters + SwarphCall + MeshClient |
-| [`swarph-cli`](https://github.com/darw007d/swarph-cli) | The `swarph` standalone binary |
-| [`swarph-meshlm`](https://github.com/darw007d/swarph-meshlm) | This repo — `llm` plugin (same primitives via Simon's plugin host) |
+| [`swarph-mesh`](https://github.com/BrainSurfing-tech/swarph-mesh) | Substrate Python package — Protocol + adapters + SwarphCall + MeshClient |
+| [`swarph-cli`](https://github.com/BrainSurfing-tech/swarph-cli) | The `swarph` standalone binary |
+| [`swarph-meshlm`](https://github.com/BrainSurfing-tech/swarph-meshlm) | This repo — `llm` plugin (same primitives via Simon's plugin host) |
 
 ## Status
 
@@ -26,7 +26,7 @@ Different distribution channels for the same primitives. Users already on Simon'
 ## Install (dev)
 
 ```bash
-git clone https://github.com/darw007d/swarph-meshlm
+git clone https://github.com/BrainSurfing-tech/swarph-meshlm
 cd swarph-meshlm
 python -m venv venv && source venv/bin/activate
 pip install -e ".[dev]"

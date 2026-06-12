@@ -34,9 +34,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/darw007d/swarph-meshlm"
-Source = "https://github.com/darw007d/swarph-meshlm"
-Substrate = "https://github.com/darw007d/swarph-mesh"
+Homepage = "https://github.com/BrainSurfing-tech/swarph-meshlm"
+Source = "https://github.com/BrainSurfing-tech/swarph-meshlm"
+Substrate = "https://github.com/BrainSurfing-tech/swarph-mesh"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]
